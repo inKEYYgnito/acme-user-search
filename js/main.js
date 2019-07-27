@@ -4,7 +4,7 @@ let usersArray, timeout
 const renderUserTable = () => {
     document.getElementById('users').innerHTML = `
     <tr>
-        <th></th>
+        <th>Avatar</th>
         <th>First Name</th>
         <th>Last Name</th>
         <th>Email</th>
